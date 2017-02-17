@@ -1,0 +1,15 @@
+
+
+
+project of random containing:
+- a SQL script to recreate a test database (student.sql)
+- a class DataContainer to deal with data extraction and storage in C++ from MySql
+- a class RFForest which implements the Random Forest Algorithm for regression and 
+  can be run on DataContainer Objects
+
+install:
+-- run mysql -u [admin] [-p] < student.sql 
+-- make sure to have a user with access to testdb and modify user and password 
+   in main.c
+-- run make
+-- ./exec
