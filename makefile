@@ -27,9 +27,9 @@ else
 	LDFLAGS=
 endif
 EXEC=exec
-SRC=$(wildcard *.c)
+SRC=$(wildcard *.cpp)
 OBJDIR=obj
-OBJ= $(SRC:.c=.o)
+OBJ= $(SRC:.cpp=.o)
 
 all: $(EXEC) $(LIB)
 
